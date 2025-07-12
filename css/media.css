@@ -1,0 +1,178 @@
+ /* Responsive styles */
+        @media (max-width: 1200px) {
+            .introduction .intro-header p {
+                font-size: 20px;
+            }
+            
+            .introduction .card-body h3 {
+                font-size: 18px;
+            }
+            
+            .introduction .card-body p {
+                font-size: 16px;
+            }
+            
+            .blog .blog-post-header h3,
+            .categories h3,
+            .useful-links h3,
+            .related-post h3 {
+                font-size: 24px;
+            }
+            
+            .blog .blog-post-body p {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .col-lg-4 {
+                width: 33.33%;
+            }
+            
+            .col-md-6 {
+                width: 50%;
+            }
+            
+            .introduction .card-body a,
+            .blog .blog-post-body a,
+            footer .heading-text a,
+            .footer-heading a {
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+            
+            header nav ul li a {
+                padding: 10px 15px;
+                font-size: 18px;
+            }
+            
+            .hero .hero-img img {
+                height: 500px;
+            }
+            
+            footer .heading-content {
+                padding: 15px 20px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .col-sm-12 {
+                width: 100%;
+            }
+            
+            header .nav-bar nav {
+                display: none;
+                width: 100%;
+                margin-top: 20px;
+            }
+            
+            header .nav-bar nav.active {
+                display: block;
+            }
+            
+            header .nav-bar nav ul {
+                flex-direction: column;
+            }
+            
+            header .nav-bar nav ul li {
+                margin: 5px 0;
+            }
+            
+            header .nav-bar .toggler {
+                display: block;
+            }
+            
+            .hero .hero-img img {
+                height: 400px;
+            }
+            
+            .introduction .intro-header p br {
+                display: none;
+            }
+            
+            .blog .col-6 {
+                width: 100%;
+            }
+            
+            footer .col-6 {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            
+            footer .heading-img img {
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .col-xs-12 {
+                width: 100%;
+            }
+            
+            header {
+                padding: 15px;
+            }
+            
+            header .nav-bar .logo h3 {
+                font-size: 30px;
+            }
+            
+            .hero .hero-img img {
+                height: 300px;
+            }
+            
+            .introduction .intro-header h3 {
+                font-size: 28px;
+            }
+            
+            .introduction .intro-header p {
+                font-size: 18px;
+                padding-bottom: 30px;
+            }
+            
+            .introduction .card-body img {
+                height: 150px;
+            }
+            
+            .blog .categories ul li,
+            .blog .useful-links ul li {
+                font-size: 18px;
+            }
+            
+            footer .footer-heading h3 {
+                font-size: 22px;
+            }
+            
+            footer .heading-content {
+                padding: 10px 15px;
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .introduction .card-body a,
+            .blog .blog-post-body a,
+            footer .heading-text a,
+            .footer-heading a {
+                padding: 8px 15px;
+                font-size: 14px;
+            }
+            
+            .hero .hero-img img {
+                height: 250px;
+            }
+            
+            .introduction .card-body img {
+                height: 120px;
+            }
+            
+            .related-post-text h3 {
+                font-size: 20px;
+            }
+            
+            footer .heading-img img {
+                width: 50px;
+                height: 50px;
+            }
+        
